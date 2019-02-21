@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .img-container {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+        
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+    <title>Image gallery</title>
+</head>
+
+<body>
+
+    <h2>Image gallery</h2>
+
+    <div class="clearfix">
+        <div class="img-container">
+            <img src="city.jpg" alt="Lavender" style="width:100%">
+        </div>
+        <div class="img-container">
+            <img src="space.jpg" alt="Lake" style="width:100%">
+        </div>
+        <div class="img-container">
+            <img src="water.jpg" alt="Mountains" style="width:100%">
+        </div>
+        <div class="img-container">
+            <img src="light1.jpg" alt="Sun" style="width:100%">
+        </div>
+        <div class="img-container">
+            <img src="light2.jpg" alt="Flowers" style="width:100%">
+        </div>
+    </div>
+
+</body>
+
+</html>

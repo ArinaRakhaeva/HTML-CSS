@@ -1,0 +1,32 @@
+body {
+    background-image: url("white-waves.png");
+}
+
+h1 {
+    color: red;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+figcaption {
+    color: darkblue;
+}
+
+section {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5%;
+}
+
+a:link {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+a:visited {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+ul {
+    list-style-type: none;
+}

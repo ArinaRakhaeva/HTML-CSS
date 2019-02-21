@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Using flexbox
+    </title>
+    <meta charset="utf-8" />
+    <style>
+        .flex-container {
+            display: flex;
+        }
+        
+        .flex-container>div {
+            border: 3px solid pink;
+            background-color: #f1f1f1;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .flex-container {
+                display: flex;
+                flex-direction: column;
+            }
+            .flex-container>div {
+                border: 5px solid pink;
+                background-color: #f1f1f1;
+                margin: 10px;
+                padding: 20px;
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Using flexbox</h1>
+
+    <div class="flex-container">
+        <div>The first section</div>
+        <div>Something is here</div>
+        <div>Something is here</div>
+        <div>Something is here</div>
+        <div>The last section</div>
+    </div>
+</body>
+
+</html>
